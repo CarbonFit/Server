@@ -4,10 +4,11 @@
   "description": "teste server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Carlos",
-  "license": "ISC",
+  "author": "Carlos, EmanuelFranklyn",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   }

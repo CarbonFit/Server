@@ -1,0 +1,10 @@
+{
+  "title": "Plantar Arvore",
+  "description": "Plantar 3 arvores",
+  "initialValue": 0,
+  "endValue": 3,
+  "unitType": "Arvores",
+  "increment": 1,
+  "buttonText": "Plantar Arvore",
+  "thumb": "thumb.jpg"
+}
