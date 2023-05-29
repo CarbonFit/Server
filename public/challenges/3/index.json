@@ -1,0 +1,11 @@
+{
+  "timestamp": "27/05/2023",
+  "title": "null",
+  "description": "Nothing",
+  "initialValue": 5,
+  "endValue": 15,
+  "unitType": "Rocks",
+  "increment": 1.5,
+  "buttonText": "DEBUG",
+  "thumb": "thumb.jpg"
+}
