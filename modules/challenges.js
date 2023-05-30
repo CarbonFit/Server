@@ -13,7 +13,7 @@ function loadChallenges() {
     const challenge = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..', 'public', 'challenges', file, 'index.json')));
     challenge.id = file;
     var temp = challenge.timestamp.split('/');
-    challenge.timestamp = new Date(temp[1] + '/' + temp[0] + '/' + temp[2] + ' 12:00').getTime();
+    challenge.timestamp = new Date(`${temp[1]}/${temp[0]}/${temp[2]} 12:00`).getTime();
     if (challenge.timestamp > Date.now()) {
       // don't add challenges that are not yet available and set the next challenge timer to the smallest one
       nextChallengeIn = nextChallengeIn === 0 ? challenge.timestamp : Math.min(nextChallengeIn, challenge.timestamp);
