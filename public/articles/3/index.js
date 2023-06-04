@@ -1,6 +1,5 @@
 // do a fetch request to ../metadata
 fetch('./metadata').then(res => res.json()).then(data => {
-  console.log(data);
   // hidrate the page with the data
   document.title = data.title;
   document.getElementById('thumbSubTitleSection').style.backgroundImage = `url('./thumb')`;
