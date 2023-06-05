@@ -1,11 +1,11 @@
 {
-  "timestamp": "27/05/2023",
-  "title": "null",
-  "description": "Nothing",
-  "initialValue": 5,
-  "endValue": 15,
-  "unitType": "Rocks",
-  "increment": 1.5,
-  "buttonText": "DEBUG",
+  "timestamp": "05/06/2023",
+  "title": "Um dia sem plástico",
+  "description": "Não usar plástico por um dia",
+  "initialValue": 0,
+  "endValue": 1,
+  "unitType": "Dia(s)",
+  "increment": 1,
+  "buttonText": "Concluir", 
   "thumb": "thumb.jpg"
 }

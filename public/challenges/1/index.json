@@ -1,11 +1,11 @@
 {
-  "timestamp": "27/05/2023",
-  "title": "Plantar Arvore",
-  "description": "Plantar 3 arvores",
+  "timestamp": "03/06/2023",
+  "title": "Comer frutas",
+  "description": "Mantenha-se saudável comendo frutas todos os dias!",
   "initialValue": 0,
-  "endValue": 3,
-  "unitType": "Arvores",
+  "endValue": 7,
+  "unitType": "Frutas",
   "increment": 1,
-  "buttonText": "Plantar Arvore",
+  "buttonText": "Comi uma fruta", 
   "thumb": "thumb.jpg"
 }

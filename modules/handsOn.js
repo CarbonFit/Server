@@ -23,8 +23,8 @@ function loadArticles() {
 loadArticles();
 setInterval(() => {
   loadArticles();
-// }, 1000 * 60 * 30); // reload challenges every 30 minutes
-}, 1000 * 30); // DEBUG: reload challenges every 30 seconds
+}, 1000 * 60 * 30); // reload challenges every 30 minutes
+// }, 1000 * 30); // DEBUG: reload challenges every 30 seconds
 
 
 // is mapped to /api/handsOn/

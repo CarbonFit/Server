@@ -1,0 +1,11 @@
+{
+  "timestamp": "06/06/2023",
+  "title": "Reduzir consumo de água",
+  "description": "Reduzir o consumo de água em 3 litros por dia",
+  "initialValue": 0,
+  "endValue": 21,
+  "unitType": "Litros",
+  "increment": 3,
+  "buttonText": "Reduzir 3 litros", 
+  "thumb": "thumb.jpg"
+}
